@@ -1,0 +1,17 @@
+-- Assuming you have the direct paths to the prompts
+local prompts = {
+    game.Workspace.Part1.ProximityPrompt, -- Example path
+    game.Workspace.Part2.ProximityPrompt  -- Add as many as you have
+}
+
+-- Function to fire all the prompts in the list
+local function fireDirectProximityPrompts()
+    while wait(0.1) do -- Includes a delay to prevent overloading, adjust as needed
+        for _, prompt in ipairs(prompts) do
+            fireproximityprompt(prompt)
+        end
+    end
+end
+
+-- To start firing the prompts
+fireDirectProximityPrompts()

@@ -1,3 +1,1 @@
-LUA code that finds all Proximity Prompts, and attempts to fire them.
-
-Very resource heavy, still optimizing.
+Kod LUA, który znajduje wszystkie monity o zbliżeniu i próbuje je uruchomić. Bardzo wymagający pod względem zasobów, wciąż optymalizowany.
